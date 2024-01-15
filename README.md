@@ -31,6 +31,6 @@
 -como ejecutar el servidor:
     ´´´
     python manage.py runserver
-    el servidor resultante es http://127.0.0.1:8000/
 
     ´´´
+el servidor resultante es http://127.0.0.1:8000/
