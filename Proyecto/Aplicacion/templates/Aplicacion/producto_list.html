@@ -1,0 +1,16 @@
+{% extends 'Aplicacion/base.html' %}
+
+{% block contenido %}
+
+    {% for producto in productos %}
+        <ul>
+            <li>
+                {{ producto.id_Producto }}
+                {{ producto.nombre }}
+                {{ producto.precio }}
+            </li>
+        </ul>
+
+    {% endfor %}
+
+{% endblock contenido %}

@@ -1,12 +1,16 @@
-
-
 {% extends 'Aplicacion/base.html' %}
 
 {% block contenido %}
 
-    <h1>Entrega</h1>
+    <h1>Registro de datos de sucursales</h1>
 
-    <button><a href="{% url 'persona_list' %}">Ver Personas</a></button>
-    <button><a href="{% url 'persona_create' %}">Crear Personas</a></button>
+    <button><a href="{% url 'persona_list' %}">Listar Usuarios</a></button>
+    <button><a href="{% url 'persona_create' %}">Registar Usuarios</a></button>
+    <button><a href="{% url 'cliente_list' %}">Listar Clientes</a></button>
+    <button><a href="{% url 'cliente_create' %}">Alta de Cliente</a></button>
+    <button><a href="{% url 'producto_list' %}">Listar Productos</a></button>
+    <button><a href="{% url 'producto_create' %}">Ingresar Productos</a></button>
+    <button><a href="{% url 'vendedor_list' %}">Listar Vendedores</a></button>
+    <button><a href="{% url 'vendedor_create' %}">Alta de Vendedores</a></button>
 
 {% endblock contenido %}

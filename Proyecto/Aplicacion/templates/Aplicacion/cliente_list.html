@@ -1,0 +1,16 @@
+{% extends 'Aplicacion/base.html' %}
+
+{% block contenido %}
+
+    {% for cliente in clientes %}
+        <ul>
+            <li>
+                {{ cliente.cliente }}
+                {{ cliente.email }}
+
+            </li>
+        </ul>
+
+    {% endfor %}
+
+{% endblock contenido %}

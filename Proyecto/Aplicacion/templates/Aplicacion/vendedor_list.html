@@ -1,0 +1,16 @@
+{% extends 'Aplicacion/base.html' %}
+
+{% block contenido %}
+
+    {% for vendedor in vendedores %}
+        <ul>
+            <li>
+                {{ vendedor.id_vendedor }}
+                {{ vendedor.vendedor }}
+                {{ vendedor.sucursal }}
+            </li>
+        </ul>
+
+    {% endfor %}
+
+{% endblock contenido %}
