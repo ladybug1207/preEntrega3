@@ -14,6 +14,7 @@
     https://github.com/ladybug1207/preEntrega3.git
 
 -creacion y activacion del entorno virtual: 
+
     ´´´
     cd ~
     python -m venv .venv
@@ -25,12 +26,12 @@
     ´´´
     pip install Django
     pip install -r requirements.txt
-
     ´´´
 
 -como ejecutar el servidor:
-    ´´´
-    python manage.py runserver
 
     ´´´
-el servidor resultante es http://127.0.0.1:8000/
+    python manage.py runserver
+    el servidor resultante es http://127.0.0.1:8000/
+    ´´´
+
