@@ -1,0 +1,12 @@
+
+
+{% extends 'Aplicacion/base.html' %}
+
+{% block contenido %}
+
+    <h1>Entrega</h1>
+
+    <button><a href="{% url 'persona_list' %}">Ver Personas</a></button>
+    <button><a href="{% url 'persona_create' %}">Crear Personas</a></button>
+
+{% endblock contenido %}

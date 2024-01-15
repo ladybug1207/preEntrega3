@@ -1,0 +1,18 @@
+{% extends 'Aplicacion/base.html' %}
+
+{% block contenido %}
+
+    {% for persona in personas %}
+        <ul>
+            <li>
+                {{ persona.nombre }}
+                {{ persona.apellido }}
+                {{ persona.edad }}
+                {{ persona.email }}
+            </li>
+        </ul>
+
+    {% endfor %}
+
+{% endblock contenido %}
+
